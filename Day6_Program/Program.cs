@@ -10,6 +10,21 @@ namespace Day6_Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Day6 Program");
+            FibonnaicSeries series = new FibonnaicSeries();
+            FibonnaicSeries.Master();
+
+            //PerfectNumber n=new PerfectNumber();
+            //PerfectNumber.Member();
+
+            PrimeNumber p=new PrimeNumber();
+            PrimeNumber.Prime();
+
+            ReverseNumber r=new ReverseNumber();
+            ReverseNumber.reverse();
+
+            StopWatch.watch();
+           Console.ReadKey();
         }
     }
 }
